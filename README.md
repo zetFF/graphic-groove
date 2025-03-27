@@ -1,69 +1,59 @@
-# Welcome to your Lovable project
+<p align="center">
+  <a href="https://vite.dev" target="_blank" rel="noopener noreferrer">
+    <img width="180" src="https://vite.dev/logo.svg" alt="Vite logo">
+  </a>
+</p>
+<br/>
+<p align="center">
+  <a href="https://npmjs.com/package/vite"><img src="https://img.shields.io/npm/v/vite.svg" alt="npm package"></a>
+  <a href="https://nodejs.org/en/about/previous-releases"><img src="https://img.shields.io/node/v/vite.svg" alt="node compatibility"></a>
+  <a href="https://github.com/vitejs/vite/actions/workflows/ci.yml"><img src="https://github.com/vitejs/vite/actions/workflows/ci.yml/badge.svg?branch=main" alt="build status"></a>
+  <a href="https://pr.new/vitejs/vite"><img src="https://developer.stackblitz.com/img/start_pr_dark_small.svg" alt="Start new PR in StackBlitz Codeflow"></a>
+  <a href="https://chat.vite.dev"><img src="https://img.shields.io/badge/chat-discord-blue?style=flat&logo=discord" alt="discord chat"></a>
+</p>
+<br/>
 
-## Project info
+# Vite ⚡
 
-**URL**: https://lovable.dev/projects/b5463431-3baf-4a28-9d17-d1d69b2e62aa
+> Next Generation Frontend Tooling
 
-## How can I edit this code?
+- 💡 Instant Server Start
+- ⚡️ Lightning Fast HMR
+- 🛠️ Rich Features
+- 📦 Optimized Build
+- 🔩 Universal Plugin Interface
+- 🔑 Fully Typed APIs
 
-There are several ways of editing your application.
+Vite (French word for "quick", pronounced [`/vit/`](https://cdn.jsdelivr.net/gh/vitejs/vite@main/docs/public/vite.mp3), like "veet") is a new breed of frontend build tooling that significantly improves the frontend development experience. It consists of two major parts:
 
-**Use Lovable**
+- A dev server that serves your source files over [native ES modules](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules), with [rich built-in features](https://vite.dev/guide/features.html) and astonishingly fast [Hot Module Replacement (HMR)](https://vite.dev/guide/features.html#hot-module-replacement).
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/b5463431-3baf-4a28-9d17-d1d69b2e62aa) and start prompting.
+- A [build command](https://vite.dev/guide/build.html) that bundles your code with [Rollup](https://rollupjs.org), pre-configured to output highly optimized static assets for production.
 
-Changes made via Lovable will be committed automatically to this repo.
+In addition, Vite is highly extensible via its [Plugin API](https://vite.dev/guide/api-plugin.html) and [JavaScript API](https://vite.dev/guide/api-javascript.html) with full typing support.
 
-**Use your preferred IDE**
+[Read the Docs to Learn More](https://vite.dev).
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## Packages
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+| Package                                         | Version (click for changelogs)                                                                                                    |
+| ----------------------------------------------- | :-------------------------------------------------------------------------------------------------------------------------------- |
+| [vite](packages/vite)                           | [![vite version](https://img.shields.io/npm/v/vite.svg?label=%20)](packages/vite/CHANGELOG.md)                                    |
+| [@vitejs/plugin-legacy](packages/plugin-legacy) | [![plugin-legacy version](https://img.shields.io/npm/v/@vitejs/plugin-legacy.svg?label=%20)](packages/plugin-legacy/CHANGELOG.md) |
+| [create-vite](packages/create-vite)             | [![create-vite version](https://img.shields.io/npm/v/create-vite.svg?label=%20)](packages/create-vite/CHANGELOG.md)               |
 
-Follow these steps:
+## Contribution
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+See [Contributing Guide](CONTRIBUTING.md).
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+## License
 
-# Step 3: Install the necessary dependencies.
-npm i
+[MIT](LICENSE).
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## Sponsors
 
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with .
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/b5463431-3baf-4a28-9d17-d1d69b2e62aa) and click on Share -> Publish.
-
-## I want to use a custom domain - is that possible?
-
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+<p align="center">
+  <a target="_blank" href="https://github.com/sponsors/yyx990803">
+    <img alt="sponsors" src="https://sponsors.vuejs.org/vite.svg?v2">
+  </a>
+</p>
